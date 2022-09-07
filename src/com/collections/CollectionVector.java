@@ -25,6 +25,31 @@ public class CollectionVector {
         vec.add("6");
         // display
         obj.display(vec,"Adding");
+        // addindex
+        vec.add(3,"9");
+        // display
+        obj.display(vec,"Adding by Index");
+        // remove
+        vec.remove("3");
+        // display
+        obj.display(vec,"Element 3 is removed");
+        // contains
+        System.out.println(vec.contains("5"));
+        // display
+        obj.display(vec,"Adding by Index");
+        System.out.println("Index of element 2 "+vec.indexOf("6"));
+        System.out.println("Size of vector "+vec.size());
+        vec.add(3,"4");
+        System.out.println("Last Index of element 4 "+vec.indexOf("4"));
+        // display
+        obj.display(vec,"Elements");
+        vec.clear();
+        // display
+        obj.display(vec,"No Elements");
+
+
+
+
 
 
 

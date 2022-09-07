@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56eb6d0a-cc68-49de-a680-73154d448c15" name="Changes" comment="Make Repo">
-      <change afterPath="$PROJECT_DIR$/src/Collections_Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collections/CollectionArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collections/CollectionLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collections/CollectionVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/collections/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    <list default="true" id="56eb6d0a-cc68-49de-a680-73154d448c15" name="Changes" comment="MAC_Update-001">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/collections/CollectionVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collections/CollectionVector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +29,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +47,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662454398638</updated>
-      <workItem from="1662454401943" duration="10074000" />
+      <workItem from="1662454401943" duration="10709000" />
+      <workItem from="1662521689584" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="Make Repo">
       <created>1662454713629</created>
@@ -61,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662454713629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MAC_Update-001">
+      <created>1662465766298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662465766298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Make Repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make Repo" />
+    <MESSAGE value="MAC_Update-001" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAC_Update-001" />
   </component>
 </project>
