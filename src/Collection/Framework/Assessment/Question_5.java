@@ -1,7 +1,5 @@
 package Collection.Framework.Assessment;
-
 import java.util.Iterator;
-import java.util.Set;
 import java.util.TreeMap;
 
 public class Question_5 {
@@ -14,6 +12,7 @@ public class Question_5 {
                 return true;
             }
         }
+        System.out.println("DEBUGGING console: Not a signle key is greater than "+GivenKey);
         return false;
     }
 
@@ -27,9 +26,9 @@ public class Question_5 {
         map.put(3,3);
         map.put(0,0);
 
-        System.out.println("Any Key greater than 4 "+greaterKeyExist(4,map));
+        System.out.println("Any Key greater than 4 is "+greaterKeyExist(4,map));
         System.out.println(" ");
-        System.out.println("Any Key greater than 1 "+greaterKeyExist(1,map));
+        System.out.println("Any Key greater than 1 is "+greaterKeyExist(1,map));
 
     }
 }

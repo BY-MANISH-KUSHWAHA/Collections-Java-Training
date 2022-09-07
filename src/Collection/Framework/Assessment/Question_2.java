@@ -6,9 +6,12 @@ import java.util.Scanner;
 public class Question_2 {
     static int QueryIndex;
     public static ArrayList<Integer> readInput(){
-        //Scanner scan = new Scanner(System.in);
-        String consoleInput = "5 5 41 77 74 22 44 1 12 4 37 34 36 52 0 3 20 22 33 5 1 3 3 4 3 1 4 3 5 5";//scan.nextLine();
-        //scan.close();
+        Scanner scan = new Scanner(System.in);
+
+        // Sample Input: 5 5 41 77 74 22 44 1 12 4 37 34 36 52 0 3 20 22 33 5 1 3 3 4 3 1 4 3 5 5
+        String consoleInput = scan.nextLine();
+
+        scan.close();
 
         // Array of String Integer
         String[] arr = consoleInput.split(" ");

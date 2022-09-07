@@ -2,12 +2,16 @@ package Collection.Framework.Assessment;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Scanner;
 
 public class Question_3 {
     public static ArrayList<String> readInput(){
-        //Scanner scan = new Scanner(System.in);
-        String consoleInput = "5 john tom john mary john tom mary anna mary anna";//scan.nextLine();
-        //scan.close();
+        Scanner scan = new Scanner(System.in);
+
+        // Sample Input: 5 john tom john mary john tom mary anna mary anna
+        String consoleInput = scan.nextLine();
+
+        scan.close();
 
         // Array of String Integer
         String[] arr = consoleInput.split(" ");

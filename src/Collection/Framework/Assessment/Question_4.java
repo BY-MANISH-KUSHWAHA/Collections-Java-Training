@@ -12,7 +12,6 @@ public class Question_4 {
         LinkedList ll = new LinkedList();
         ll.add(-3);
         ll.add(-1);
-        ll.add(-1);
         ll.add(0);
         ll.add(1);
         ll.add(2);
@@ -21,7 +20,7 @@ public class Question_4 {
         ll.add(5);
 
         int position1=1;
-        int position2=6;
+        int position2=2;
 
         System.out.println("Original LinkedList: "+ll);
         Swap(position1,position2,ll);
