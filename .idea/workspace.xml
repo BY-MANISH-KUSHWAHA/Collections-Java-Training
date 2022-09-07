@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56eb6d0a-cc68-49de-a680-73154d448c15" name="Changes" comment="MAC_Update-002">
-      <change afterPath="$PROJECT_DIR$/src/com/collections/CollectionHashTable.java" afterDir="false" />
+    <list default="true" id="56eb6d0a-cc68-49de-a680-73154d448c15" name="Changes" comment="MAC_Update-003">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/collections/CollectionHeshSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/collections/CollectionLinkedHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/collections/CollectionVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/collections/CollectionVector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662454398638</updated>
       <workItem from="1662454401943" duration="10709000" />
-      <workItem from="1662521689584" duration="3571000" />
+      <workItem from="1662521689584" duration="4365000" />
     </task>
     <task id="LOCAL-00001" summary="Make Repo">
       <created>1662454713629</created>
@@ -72,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662522885931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MAC_Update-003">
+      <created>1662525323810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662525323810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +102,7 @@
     <MESSAGE value="Make Repo" />
     <MESSAGE value="MAC_Update-001" />
     <MESSAGE value="MAC_Update-002" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAC_Update-002" />
+    <MESSAGE value="MAC_Update-003" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAC_Update-003" />
   </component>
 </project>
