@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56eb6d0a-cc68-49de-a680-73154d448c15" name="Changes" comment="MAC_Update-005">
-      <change afterPath="$PROJECT_DIR$/src/com/maps/MapInterface.java" afterDir="false" />
+    <list default="true" id="56eb6d0a-cc68-49de-a680-73154d448c15" name="Changes" comment="MAC_Update-006">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/collections/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/maps/MapInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/maps/MapInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662454398638</updated>
       <workItem from="1662454401943" duration="10709000" />
-      <workItem from="1662521689584" duration="8548000" />
+      <workItem from="1662521689584" duration="10246000" />
     </task>
     <task id="LOCAL-00001" summary="Make Repo">
       <created>1662454713629</created>
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662528619124</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MAC_Update-006">
+      <created>1662531282348</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662531282348</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +124,7 @@
     <MESSAGE value="MAC_Update-003" />
     <MESSAGE value="MAC_Update-004" />
     <MESSAGE value="MAC_Update-005" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAC_Update-005" />
+    <MESSAGE value="MAC_Update-006" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAC_Update-006" />
   </component>
 </project>

@@ -30,7 +30,7 @@ public class MapInterface {
     public static void main(String[] args) {
         HashMap<Integer,String> map = new HashMap<>();
 
-        // Adding Elements
+        // Adding Elements - Put
         map.put(-1,"A");
         map.put(0,"B");
         map.put(1,"C");
@@ -40,6 +40,58 @@ public class MapInterface {
 
         // display
         display(map,"HASHMAP");
+
+        // display using mapper
+        Iterator itr = map.entrySet().iterator();
+        while(itr.hasNext()){
+            Map.Entry pair = (Map.Entry) itr.next();
+            System.out.println(pair.getKey()+" => "+pair.getValue());
+        }
+
+        // clone
+        HashMap<Integer,String> clone = (HashMap<Integer, String>) map.clone();
+        display(clone,"Clone");
+
+        // isEmpty
+        System.out.println("isEmpty = "+map.isEmpty());
+
+        // size()
+        System.out.println("Size = "+map.size());
+
+        // remove
+        map.remove(-1);
+        display(map,"  -1 is removed");
+        // putAll
+        map.putAll(clone);
+
+        // display
+        display(map,"put All");
+
+        // clear
+        clone.clear();
+        display(clone,"Clear");
+
+        //merge
+        map.merge(3," | R",(oldValue, newValue) -> oldValue + newValue);
+        display(map, "Merge");
+
+        // compute
+        map.compute(1, (key, val) -> val.concat(" compute_added"));
+        display(map, "compute");
+
+        // computeifAbsent
+        map.computeIfAbsent(2, k -> "No Value Present" + "-IfAbsent");
+        map.computeIfAbsent(9, k -> "No Value Present" + "-IfAbsent");
+
+        display(map,"computeIfAbsent");
+        // computeIfPresent
+        map.computeIfPresent(2, (key, val) -> val + "-IfPresent");
+        map.computeIfPresent(11, (key, val) -> val + "-IfPresent");
+        display(map,"computeIfPresent");
+
+
+
+
 
 
 
