@@ -1,5 +1,3 @@
-package com.collections;
-
 public class MyLinkedList {
     public MyLinkedList next;
     public int val;

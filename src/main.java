@@ -1,6 +1,3 @@
-import com.collections.MyLinkedList;
-
-
 public class main {
     public static void main(String[] args) {
         Collections_Java obj  = new Collections_Java();
